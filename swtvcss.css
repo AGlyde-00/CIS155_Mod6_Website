@@ -1,0 +1,36 @@
+/* Reset selector for the page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style rules for the main element */
+main {
+    width: 800px;
+    margin: 10px 15px;
+}
+
+/* Style rules for the header element */
+header {
+    border-bottom: 1px solid black;
+}
+
+/* Style rules for the h2 element */
+h2 {
+    padding: .5em;
+}
+
+/* Style rules for the ul element within main */
+/* Creation of columns in progress. Needs tuning */
+main ul {
+    height: 500px;
+    width: 300px;
+    float: left;
+    border-right: 1px solid black;
+}
+
+/* Style rules for the ul element within aside */
+aside ul {
+    width: 300px;
+    float: right;
+}
