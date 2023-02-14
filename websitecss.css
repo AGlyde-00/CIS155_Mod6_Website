@@ -1,3 +1,4 @@
+/* Element style rules */
 html {
     background-image: linear-gradient(135deg, red 36%, blue 58%, red 100%);
 }
@@ -16,6 +17,11 @@ h2 {
     padding: .5em .5em .5em 3em;
 }
 
+/* Type style rules */
+main img {
+    max-width: 100%;
+}
+
 ol li {
     font-weight: bold;
 }
@@ -26,6 +32,11 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+footer {
+    margin: 0;
+}
+
+/* Link style rules */
 a:link {
     color: white;
     text-decoration: none;
@@ -40,8 +51,4 @@ a:focus {
 
 a {
     color: white;
-}
-
-footer {
-    margin: 0;
 }
