@@ -15,6 +15,32 @@ header {
     border-bottom: 1px solid black;
 }
 
+/*Nav menu style rules*/
+#nav_menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+/* Link style rules */
+a:link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1em;
+}
+
+a:hover,
+a:focus {
+    color: silver;
+}
+
+a {
+    color: white;
+}
+
 /* Style rules for the h2 element */
 h2 {
     padding: .5em;
@@ -33,4 +59,27 @@ main ul {
 aside ul {
     width: 300px;
     float: right;
+}
+
+/*Breakpoint at 760px for nav_menu*/
+@media only screen and (max-width: 760px) {
+    #nav_menu ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        background-color: black;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
+
+/*Breakpoint at 500px for nav_menu*/
+@media only screen and (max-width: 500px) {
+    #nav_menu ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        background-color: black;
+        justify-content: space-evenly;
+    }
 }
