@@ -13,6 +13,8 @@ html {
 main {
     width: 800px;
     margin: 10px 15px;
+    display: grid;
+    grid-template: auto / repeat(2, 90% 90%);
 }
 
 /* Style rules for the header element */
@@ -46,24 +48,36 @@ a {
     color: white;
 }
 
+/*Style rules for the section*/
+section {
+    grid-column: 1/2;
+    border: solid 4px black;
+}
+
+/* Style rules for the ul element within section */
+/* Creation of columns in progress. Needs tuning */
+section ul {
+    height: 100%;
+    width: 30%;
+    padding-left: 2.5%;
+}
+
 /* Style rules for the h2 element */
 h2 {
     padding: .5em;
 }
 
-/* Style rules for the ul element within main */
-/* Creation of columns in progress. Needs tuning */
-main ul {
-    height: 500px;
-    width: 300px;
-    float: left;
-    border-right: 1px solid black;
+/*Style rules for the aside*/
+aside {
+    grid-column: 2/3;
+    padding-left: 2.5%;
+    border: solid 4px black;
 }
 
 /* Style rules for the ul element within aside */
 aside ul {
-    width: 300px;
-    float: right;
+    height: 100%;
+    width: 30%;
 }
 
 /*Breakpoint at 760px for nav_menu*/
