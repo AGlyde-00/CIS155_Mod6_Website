@@ -19,12 +19,17 @@ h2 {
 }
 
 /* Type style rules */
+#mobile_menu {
+    display: none;
+}
+
 #nav_menu ul {
     display: flex;
     flex-direction: row;
     list-style: none;
     background-color: black;
     justify-content: space-evenly;
+    padding: 1em;
 }
 
 main img {
@@ -64,23 +69,22 @@ a {
 
 /*Breakpoint at 760px for nav_menu*/
 @media only screen and (max-width: 760px) {
+    #mobile_menu {
+        display: block;
+    }
+
     #nav_menu ul {
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-        background-color: black;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        display: none;
     }
 }
 
 /*Breakpoint at 500px for nav_menu*/
 @media only screen and (max-width: 500px) {
+    #mobile_menu {
+        display: block;
+    }
+
     #nav_menu ul {
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        background-color: black;
-        justify-content: space-evenly;
+        display: none;
     }
 }
