@@ -1,0 +1,7 @@
+Camielle - As far as possible advice I would say figuring out a way to make the gradient continuous verses the harsh cut-off and repeat.
+Beau - Perhaps the home page could do more to communicate what the content of the whole website will be about. It mentions that Star Wars is your favorite series and you list your favorite creations from the Star Wars universe but you don't mention an explicit purpose for your website.
+
+Camielle - I added in a height rule to the html element on each of my css pages except for the index page as the background gradient was working as expected on that page.
+           There is a few modifications I need to make to the gradient on the smaller screens for my tv shows html.
+
+Beau - I added in a minor description to the index page.
