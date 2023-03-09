@@ -17,6 +17,27 @@ html {
     padding: 1em;
 }
 
+/*Table Style Rules*/
+figure {
+    width: 50%;
+}
+
+figcaption {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 110%;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+}
+
 /* Link style rules */
 a:link {
     color: white;
