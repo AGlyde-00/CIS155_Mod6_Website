@@ -34,6 +34,10 @@ a {
     color: white;
 }
 
+main ul li {
+    font-size: 125%;
+}
+
 /*Breakpoint at 760px for nav_menu*/
 @media only screen and (max-width: 760px) {
     html {

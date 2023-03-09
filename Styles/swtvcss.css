@@ -102,7 +102,7 @@ aside ul {
 
     main {
         display: grid;
-        grid-template: auto / repeat(2, 90% 90%);
+        grid-template: auto / repeat(2, 60% 60%);
     }
 
     section {
@@ -134,7 +134,7 @@ aside ul {
 
     main {
         display: grid;
-        grid-template: auto / repeat(2, 90% 90%);
+        grid-template: auto / repeat(2, 40% 40%);
     }
 
     section {
