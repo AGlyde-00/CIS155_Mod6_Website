@@ -5,6 +5,8 @@ html {
     background-attachment: fixed;
 }
 
+
+/*Navigation style rules*/
 #mobile_menu {
     display: none;
 }
@@ -35,7 +37,8 @@ table {
     border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
     border: 2px solid black;
 }
 

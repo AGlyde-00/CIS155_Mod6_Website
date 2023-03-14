@@ -19,7 +19,17 @@ h2 {
     font-family: "Source Code Pro";
 }
 
-/* Type style rules */
+h1,
+h2 {
+    border: 5px dotted black;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif
+}
+
+footer {
+    margin: 0;
+}
+
+/* Navigation style rules */
 #mobile_menu {
     display: none;
 }
@@ -39,16 +49,6 @@ main img {
 
 ol li {
     font-weight: bold;
-}
-
-h1,
-h2 {
-    border: 5px dotted black;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif
-}
-
-footer {
-    margin: 0;
 }
 
 /* Link style rules */
